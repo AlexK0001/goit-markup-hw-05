@@ -521,8 +521,8 @@ footer .logo {
 .footer-btn-icon {
     position: absolute;
     margin-left: 16px;
-    padding-left: 16px;
-    padding-right: 24px;
+    /* padding-left: 16px;
+    padding-right: 24px; */
     fill: #fff;
     /* stroke: #fff; */
 }
@@ -576,8 +576,8 @@ footer .logo {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     /* fill: #2e2f42; */
 }
-.modal-close:hover {
-    fill: #FFF;
+.modal-close:hover, .modal-close:focus {
+    fill: #ffffff;
     background-color: #404bbf;
 }
 .modal-close-svg {
@@ -623,7 +623,7 @@ footer .logo {
 .modal-icon {
     position: absolute;
     fill: #2e2f42;
-    left: 16px
+    left: 16px;
     top: 13px;
     top: 50%;
     transform: translateY(-50%);
@@ -672,7 +672,6 @@ footer .logo {
     padding-bottom: 24px; */
 }
 .check-text span {
-    /* position: relative; */
     display: inline-flex;
     width: 16px;
     height: 16px;
@@ -685,11 +684,17 @@ footer .logo {
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.checkbox-div {
+    margin-bottom: 24px;
+}
 .check-link {
     line-height: 133%;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
+}
+.privacy-span {
+
 }
 /* .modal-check-icon {
     position: absolute;
