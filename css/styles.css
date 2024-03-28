@@ -388,6 +388,7 @@ header .logo {
 .footer-container {
     display: flex;
     align-items: baseline;
+    /* justify-content: space-between; */
 }
 .footer-info {
     margin-right: 120px;
@@ -411,7 +412,7 @@ header .logo {
     display: flex;
 }
 .footer-icons {
-    padding-left: 120px;
+    /* padding-left: 120px; */
     width: 328px;
     display: flex;
     flex-wrap: wrap;
@@ -451,6 +452,74 @@ footer .logo {
     letter-spacing: 0.03em;
     margin-right: 76px;
 }
+.subscribe {
+    padding-left: 80px;
+}
+.footer-subscribe {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.footer-form {
+    display: flex;
+    gap: 24px;
+    position: relative;
+}
+.footer-email {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    /* margin-right: 24px; */
+    background-color: transparent;
+    padding-left: 16px;
+    /* padding-right: 212px; */
+}
+.footer-email::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+.footer-button {
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    fill: #fff;
+}
+.footer-button:hover, .footer-button:focus {
+    background-color: #404BBF;
+}
+.into-footer-btn {
+    display: flex;
+    gap: 24px;
+}
+}
+.footer-btn-icon {
+    position: absolute;
+    padding-left: 16px;
+    padding-right: 24px;
+    fill: #fff;
+    /* stroke: #fff; */
+}
 .backdrop {
     position: fixed;
     top: 0;
@@ -460,6 +529,7 @@ footer .logo {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-open {
     opacity: 1;
@@ -477,6 +547,7 @@ footer .logo {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 24px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-field {
     margin-bottom: 8px;
@@ -604,13 +675,16 @@ footer .logo {
     transform: translate(-50%, -50%);
 } */
 .modal-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 4px;
     border: none;
     padding: 16px 32px;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #4d5ae5;
+    background-color: #e7e9fc;
     color: #fff;
     font-weight: 500;
     font-size: 16px;
@@ -619,4 +693,9 @@ footer .logo {
     margin-top: 24px;
     margin-right: 96px;
     margin-left: 95px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-button:hover {
+    background-color: #404bbf;
 }
