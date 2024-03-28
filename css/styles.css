@@ -694,6 +694,7 @@ footer .logo {
 }
 .checkbox-div {
     margin-bottom: 24px;
+    display: inline-flex;
 }
 .check-link {
     line-height: 133%;
