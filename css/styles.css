@@ -512,6 +512,7 @@ footer .logo {
 }
 .footer-button:hover, .footer-button:focus {
     background-color: #404BBF;
+    border: none;
 }
 .into-footer-btn {
     display: flex;
@@ -664,6 +665,7 @@ footer .logo {
     margin-bottom: 16px;
 }
 .check-text {
+    display: inline-flex;
     font-weight: 400;
     font-size: 12px;
     line-height: 117%;
