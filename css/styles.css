@@ -686,7 +686,6 @@ footer .logo {
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
-    display: flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -694,7 +693,6 @@ footer .logo {
 }
 .checkbox-div {
     margin-bottom: 24px;
-    display: inline-flex;
 }
 .check-link {
     line-height: 133%;
