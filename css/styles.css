@@ -680,7 +680,7 @@ footer .logo {
     padding-bottom: 24px; */
 }
 .check-text span {
-    display: inline-flex;
+    /* display: inline-flex; */
     width: 16px;
     height: 16px;
     border-radius: 2px;
