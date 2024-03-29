@@ -29,10 +29,10 @@ img {
 	display: block;
 }
 a {
-    color: #434455;
+    /* color: #434455; */
     text-decoration: none;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: flex;
+    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex; */
 }
 a:hover, a:focus {
     color: #404bbf;
@@ -129,6 +129,7 @@ header .logo {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address {
+    color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero {
@@ -412,12 +413,13 @@ header .logo {
     display: flex;
 }
 .footer-icons {
-    /* padding-left: 120px; */
-    width: 328px;
+    padding-left: 120px;
+    padding-right: 80px;
+    /* width: 328px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 .footer-links {
     font-weight: 500;
@@ -452,9 +454,9 @@ footer .logo {
     letter-spacing: 0.03em;
     margin-right: 76px;
 }
-.subscribe {
+/* .subscribe {
     padding-left: 80px;
-}
+} */
 .footer-subscribe {
     font-weight: 500;
     font-size: 16px;
@@ -597,7 +599,7 @@ footer .logo {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 48px;
+    /* padding-top: 48px; */
     margin-bottom: 16px;
 }
 .modal-input {
