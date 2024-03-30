@@ -408,13 +408,15 @@ header .logo {
 .footer-ul {
     display: flex;
     gap: 16px;
+    margin-right: 80px;
 }
 .footer-a {
     display: flex;
 }
 .footer-icons {
-    padding-left: 120px;
-    padding-right: 80px;
+    /* margin-rigth: 80px; */
+    /* padding-left: 120px;
+    padding-right: 80px; */
     /* width: 328px;
     display: flex;
     flex-wrap: wrap;
